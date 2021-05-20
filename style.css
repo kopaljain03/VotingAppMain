@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    width: 44%;
+    height: 650px;
+}
+
+.desc {
+    padding-top: 150px;
+    padding-left: 30px;
+    margin-right: 50%;
+    /* text-align: center; */
+}
+
+.heading {
+    font-family: asap, sans-serif;
+    padding-bottom: 30px;
+    font-size: 80px;
+    color: #04AA6D;
+}
+
+.info>p {
+    font-family: asap, sans-serif;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#login {
+    margin-right: 50px;
+    margin-bottom: 10%;
+}
+
+#signup {
+    margin-left: 50px;
+}
